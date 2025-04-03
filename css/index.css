@@ -1,0 +1,115 @@
+
+:root {
+    --primary-color-light_blue: hsl(210, 60%, 98%);
+    --primary-color-light_blueM: hsl(211, 68%, 94%);
+    --primary-color-blue: hsl(219, 85%, 26%);
+    --primary-color-gray: hsl(219, 12%, 42%);
+    --primary-color-light_gray: hsl(219, 14%, 63%);
+    --primary-color-red: hsl(1, 90%, 64%);
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.body {
+    background-color: var(--primary-color-light_blue);
+    min-height: 100vh;
+    font-size: 20px;
+    color: var(--primary-color-gray);
+}
+.main {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    padding: 1% 3%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.flex {
+    display: flex;
+}
+.header {
+    justify-content: space-between;
+    margin: 4% 0%;
+}
+.message {
+    padding: 2%;
+    gap: 30px;
+    line-height: 1.5;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+.when {
+    color: var(--primary-color-light_gray);
+}
+.bg {
+    background-color: var(--primary-color-light_blue);
+}
+.bg-read {
+    background-color: white;
+}
+.h1 {
+    color: black;
+    font-size: 25px;
+}
+.hover:hover {
+    cursor: pointer;
+    color: var(--primary-color-blue);
+}
+.notifications {
+    background-color: var(--primary-color-blue);
+    color: white;
+    padding: 1% 8% 2% 8%;
+    margin-left: 8%;
+    border-radius: 8px;
+}
+.message__content--name {
+    font-weight: 900;
+    margin-right: 10px;
+    color: black;
+}
+.message__content--first {
+    font-weight: 900;
+}
+.message__content--unread {
+    color: var(--primary-color-red);
+    margin-left: 10px;
+}
+.message__content--unread-read {
+    color: white;
+}
+.message__inner {
+    gap: 30px;
+}
+.avater img {
+    width: 60px;
+}
+.message__content--club {
+    color: var(--primary-color-blue);
+    font-weight: 900;
+}
+.notice {
+    border: solid 1px var(--primary-color-light_gray);
+    padding: 2%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.notice:hover {
+    cursor: pointer;
+    background-color: var(--primary-color-light_blueM);
+    border: solid 1px var(--primary-color-light_blueM);
+    transition: background-color 0.3s ease;
+}
+.picture {
+    justify-content: space-between;
+}
+.message__picture img{
+    width: 60px;
+}

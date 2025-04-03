@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 800px) {
+    .h1 {
+        font-size: 23px;
+    }
+    .body {
+        font-size: 18px;
+    }
+    .avater img {
+        width: 50px;
+    }
+    .header {
+        margin: 6% 0%;
+    }
+    .message, .message__inner {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .body {
+        font-size: 17px;
+    }
+    .h1 {
+        font-size: 20px;
+    }
+    .notifications {
+        padding: 0% 7% 1% 7%;
+        margin-left: 5%;
+    }
+    .message {
+        border-radius: 10px;
+        margin-bottom: 3%;
+    }
+    .notice {
+        padding: 4%;
+        margin-top: 3%;
+    }
+    .header {
+        margin: 8% 0%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body {
+        font-size: 16px;
+    }
+    .avater img {
+        width: 40px;
+    }
+    .header {
+        margin: 10% 0%;
+    }
+    .message {
+        border-radius: 5px;
+        margin-bottom: 5%;
+    }
+    .message, .message__inner {
+        gap: 15px;
+    }
+}
